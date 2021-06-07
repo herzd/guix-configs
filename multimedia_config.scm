@@ -2,6 +2,7 @@
 ;; 1.3.0-installer to stabilize multi-monitor behaviour
 ;; with system upgrades. This is done by pinning a kernel
 ;; visible from the initial installation guix-commit.
+;; mainly adapted from https://gitlab.com/nonguix/nonguix
 
 (use-modules (gnu)
 	     (gnu packages)
