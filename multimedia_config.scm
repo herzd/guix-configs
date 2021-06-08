@@ -3,6 +3,7 @@
 ;; with system upgrades. This is done by pinning a kernel
 ;; visible from the initial installation guix-commit.
 ;; mainly adapted from https://gitlab.com/nonguix/nonguix
+;; in the section 'avoiding kernel upgrades'
 
 (use-modules (gnu)
 	     (gnu packages)
