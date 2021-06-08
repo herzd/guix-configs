@@ -1,8 +1,8 @@
-;; modified from the graphical GNU/GUIX installer (1.3.0)
-;; from http://guix.gnu.org/de/download/ to stabilize
-;; multi-monitor behaviour with system upgrades.
-;; This is done by pinning a kernel visible from
-;; the initial installation guix-commit.
+;; modified from the results of the graphical GNU/GUIX installer
+;; version 1.3.0 from http://guix.gnu.org/de/download/
+;; to stabilize multi-monitor behaviour with system upgrades.
+;; Applying this configuration means downgrading to
+;; kernel linux-libre-5.10.42 and staying with it. 
 ;; the kernel pinning is mainly adapted from
 ;; https://gitlab.com/nonguix/nonguix in the section
 ;; 'avoiding kernel upgrades'
